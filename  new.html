@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn the basics of creating a webpage with HTML. This page includes text, images, links, and a well-organized layout.">
+    <meta name="keywords" content="HTML, webpage, tutorial, semantic tags">
+    <title>Simple Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            list-style: none;
+            background: #444;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        article img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Simple Webpage</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article id="about">
+            <h2>About This Page</h2>
+            <p>This webpage is an example of how to structure content using semantic HTML tags. It's clean, organized, and easy to read.</p>
+        </article>
+        <article id="gallery">
+            <h2>Gallery</h2>
+            <img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?cs=srgb&dl=pexels-mikebirdy-170811.jpg&fm=jpg" alt="Placeholder image">
+            <p>Enjoy this beautiful image that represents the simplicity of web design.</p>
+        </article>
+        <article id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out through <a href="peterkanyi19193@gmailcom">email</a>.</p>
+        </article>
+    </section>
+    <footer>
+        <p> 2024 Simple Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
